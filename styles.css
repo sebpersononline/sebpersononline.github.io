@@ -1,0 +1,300 @@
+body {
+    color: white;
+
+    margin: 0px;
+    background: #223033;
+    background: linear-gradient(90deg, rgba(34, 48, 51, 1) 0%, rgba(34, 48, 51, 1) 30%, rgba(0, 0, 0, 1) 100%);
+    font-family:'Courier New', Courier, monospace;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+    pointer-events: all;
+}
+
+.link {
+    color: rgb(149, 255, 211);
+    text-decoration: underline;
+}
+.link:hover {
+    color: rgb(149, 255, 154);;
+}
+
+.button {
+    border: 2px solid white;
+    padding: 5px;
+    width: max-content;
+    background-color: rgba(0, 0, 0, 0.212);
+    font-weight: bold;
+    font-size: 0.85em;
+}
+
+.header {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    background-color: rgb(0, 0, 0);
+    /* padding: 5px; */
+    font-size: 2.25em;
+
+    position: sticky;
+    top: 0px;
+
+    color: grey;
+    z-index: 100;
+}
+
+.page {
+    transition: opacity 0.35s;
+    pointer-events:none;
+    position:inherit;
+    z-index: 10;
+}
+
+.tab {
+    padding: 15px;
+    transition: color 0.35s
+}
+
+.selected {
+    color: white;
+}
+#selectedResume {
+    color: rgb(255, 255, 157);
+}
+
+.headerflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 0.75em;
+}
+
+.main {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 1.5em;
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 100px;
+}
+
+/* INTRO PAGE INTRO PAGE INTRO PAGE INTRO PAGE */
+.introPage {
+    /* Highest div in the section */
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+#intro1 {
+    /* Good <time>, I'm Sebastian Santos */
+    font-size: 2em;
+}
+
+#intro3 {
+    /* (But you can call me Seb) */
+    font-size: 0.5em;
+    margin-top: 0px;
+    color: #9dcad4;
+}
+
+.intro4 {
+    /* Highlights some text yellow in the intro */
+    color: rgb(255, 235, 146);
+}
+
+.intro5 {
+    /* But what do I care about? */
+    color: #d7f8ff;
+    font-size: 1.5em;
+}
+
+.intro6 {
+    /* (game development studios and publishers are welcome in my DMs.) */
+    font-size: 0.7em;
+    color: #9dcad4;
+}
+
+.leftAlign {
+    text-align: left;
+}
+
+.centerAlign {
+    text-align: center;
+}
+/* .page > div > div {
+    border: solid;
+} */
+.rightAlign {
+    text-align: right;
+}
+
+.logo {
+    width: 2em;
+    height: 2em;
+    border: none;
+}
+
+div > img {
+    border: 2px solid white;
+    width: 100%;
+    height: 100%;
+}
+
+#me {
+    height: fit-content;
+    width: 15em;
+}
+
+
+.button > img {
+    /* Email icons */
+    width: 1.5em;
+    border: none;
+}
+
+#smallButton {
+    /* Take me out for a coffee. */
+
+    border: 1px solid #9dcad4;
+}
+
+#intro7 {
+    /* (Be sure to leave a voicemail!) */
+    font-size: 0.75em;
+    margin-top: -20px;
+    color: #9dcad4;
+}
+
+#smallButton > img {
+    /* Smaller Email icons */
+    width: 1.5em;
+    border: none;
+}
+
+/* ABOUT ME PAGE ABOUT ME PAGE ABOUT ME PAGE ABOUT ME PAGE */
+.aboutmePage {
+    /* Highest div in the section */
+}
+
+.aboutme {
+    display: grid;
+    grid-template-columns: 47% 47%;
+    column-gap: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    row-gap: 30px;
+}
+
+/* SKILLS PAGE SKILLS PAGE SKILLS PAGE SKILLS PAGE */
+.skillsPage {
+    /* Highest div in the section */
+}
+
+.skills {
+    display: grid;
+    column-gap: 10%;
+    grid-template-columns: 40% 40%;
+    margin-right: 10%;
+    font-size: 1em;
+}
+
+.skills1 {
+    font-size: 1.7em;
+    color: #9dcad4;
+}
+.skills2 {
+    color: rgb(255, 235, 146);
+}
+#skills3 {
+    font-size: 1.5em;
+    color: #9dcad4;
+}
+.skills4 {
+    color: rgb(212, 138, 255);
+}
+#skills6 {
+    color: #9dcad4;
+    font-size: 0.8em;
+}
+
+/* PROJECTS SECTION PROJECTS SECTION PROJECTS SECTION PROJECTS SECTION */
+.projectsPage {
+    /* Highest div in the section */
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    margin-right: 10%;
+    font-size: 1em;
+}
+
+.project {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.295);
+    border: thin dashed white;
+    width: 90%;
+}
+
+/* Widths 0-767, 768-1152, 1153-above */
+@media screen and (max-width: 1250px) {
+    body {
+        font-size: 0.9em;
+    }
+    .main {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #me {
+        width: 14em;
+        height: 25em;
+    }
+}
+@media screen and (max-width: 1152px) {
+    body {
+        font-size: 0.745em;
+    }
+    .main {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 10px;
+    }
+    .button {
+        font-size: 0.85em;
+    }
+}
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 0.6em;
+    }
+    .main {
+        margin: 8px;
+    }
+    .intro, .skills, .aboutme, .projects {
+        grid-template-columns: 100%;
+    }
+    .hidewhenSmall {
+        display: none;
+    }
+    .main {
+        row-gap: 0px;
+    }
+    .header {
+        font-size: 2em;
+    }
+}
+
+.hidden {
+    /* visibility: hidden; */
+    opacity: 0;
+}
