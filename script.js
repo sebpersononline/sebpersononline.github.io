@@ -20,7 +20,7 @@ function onScroll() {
     // Divs relative to document (viewport offset + window offset)
     let jump2 = document.querySelector("#jump2").getBoundingClientRect().top + window.scrollY-600;
     let jump3 = document.querySelector("#jump3").getBoundingClientRect().top + window.scrollY-600;
-    let jump4 = document.querySelector("#jump4").getBoundingClientRect().top + window.scrollY-800;
+    let jump4 = document.querySelector("#jump4").getBoundingClientRect().top + window.scrollY-600;
 
     let page1 = document.querySelector(".introPage");
     let page2 = document.querySelector(".aboutmePage");

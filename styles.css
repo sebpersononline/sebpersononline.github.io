@@ -3,7 +3,7 @@ body {
 
     margin: 0px;
     background: #223033;
-    background: linear-gradient(90deg, rgba(34, 48, 51, 1) 0%, rgba(34, 48, 51, 1) 30%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(90deg, rgba(34, 48, 51, 1) 0%, rgba(34, 48, 51, 1) 30%, rgb(39, 83, 95) 100%);
     font-family:'Courier New', Courier, monospace;
     image-rendering: -webkit-optimize-contrast;
 }
@@ -227,13 +227,18 @@ div > img {
     font-size: 0.8em;
 }
 
+.allLogos {
+    text-align: center;
+}
+
 /* PROJECTS SECTION PROJECTS SECTION PROJECTS SECTION PROJECTS SECTION */
 .projectsPage {
     /* Highest div in the section */
 }
 .projects {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* flex-direction: column; */
     row-gap: 15px;
     margin-right: 10%;
     font-size: 1em;
@@ -244,6 +249,14 @@ div > img {
     background-color: rgba(0, 0, 0, 0.295);
     border: thin dashed white;
     width: 90%;
+}
+
+.projects1 {
+    color: rgb(255, 235, 146);
+}
+
+.projects2 {
+    color: rgb(200, 249, 255);
 }
 
 /* Widths 0-767, 768-1152, 1153-above */
