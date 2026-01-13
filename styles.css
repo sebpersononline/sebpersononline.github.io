@@ -34,7 +34,7 @@ a {
 .header {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
-    background-color: rgb(27, 39, 34);
+    background-color: rgb(23, 34, 39);
     /* padding: 5px; */
     font-size: 2.25em;
 
@@ -191,7 +191,7 @@ div > img {
     column-gap: 10%;
     grid-template-columns: 40% 40%;
     margin-right: 10%;
-    font-size: 0.7em;
+    font-size: 0.85em;
 }
 
 .skills1 {
@@ -302,6 +302,7 @@ div > img {
     }
     .intro, .skills, .aboutme, .projects {
         grid-template-columns: 100%;
+        row-gap: 10px;
     }
     .hidewhenSmall {
         display: none;
