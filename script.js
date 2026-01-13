@@ -23,9 +23,9 @@ function onScroll() {
     let jump4 = document.querySelector("#jump4").getBoundingClientRect().top + window.scrollY-600;
 
     let page1 = document.querySelector(".introPage");
-    let page2 = document.querySelector(".aboutmePage");
-    let page3 = document.querySelector(".skillsPage");
-    let page4 = document.querySelector(".projectsPage");
+    let page2 = document.querySelector(".skillsPage");
+    let page3 = document.querySelector(".projectsPage");
+    let page4 = document.querySelector(".aboutmePage");
 
     let pixels = window.scrollY;
 

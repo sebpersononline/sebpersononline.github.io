@@ -34,7 +34,7 @@ a {
 .header {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(27, 39, 34);
     /* padding: 5px; */
     font-size: 2.25em;
 
@@ -79,7 +79,7 @@ a {
 
     display: flex;
     flex-direction: column;
-    row-gap: 100px;
+    row-gap: 10px;
 }
 
 /* INTRO PAGE INTRO PAGE INTRO PAGE INTRO PAGE */
@@ -181,20 +181,6 @@ div > img {
     border: none;
 }
 
-/* ABOUT ME PAGE ABOUT ME PAGE ABOUT ME PAGE ABOUT ME PAGE */
-.aboutmePage {
-    /* Highest div in the section */
-}
-
-.aboutme {
-    display: grid;
-    grid-template-columns: 47% 47%;
-    column-gap: 2%;
-    margin-left: 2%;
-    margin-right: 2%;
-    row-gap: 30px;
-}
-
 /* SKILLS PAGE SKILLS PAGE SKILLS PAGE SKILLS PAGE */
 .skillsPage {
     /* Highest div in the section */
@@ -205,7 +191,7 @@ div > img {
     column-gap: 10%;
     grid-template-columns: 40% 40%;
     margin-right: 10%;
-    font-size: 1em;
+    font-size: 0.7em;
 }
 
 .skills1 {
@@ -224,11 +210,13 @@ div > img {
 }
 #skills6 {
     color: #9dcad4;
-    font-size: 0.8em;
+    font-size: 0.6em;
+    text-align: center;
 }
 
 .allLogos {
     text-align: center;
+    font-size: 1.5em;
 }
 
 /* PROJECTS SECTION PROJECTS SECTION PROJECTS SECTION PROJECTS SECTION */
@@ -238,10 +226,10 @@ div > img {
 .projects {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* flex-direction: column; */
-    row-gap: 15px;
+    column-gap: 15px;
+    row-gap: 55px;
     margin-right: 10%;
-    font-size: 1em;
+    font-size: 0.7em;
 }
 
 .project {
@@ -257,6 +245,25 @@ div > img {
 
 .projects2 {
     color: rgb(200, 249, 255);
+}
+
+.projects3 {
+    font-size: 1.5em;
+}
+
+/* ABOUT ME PAGE ABOUT ME PAGE ABOUT ME PAGE ABOUT ME PAGE */
+.aboutmePage {
+    /* Highest div in the section */
+}
+
+.aboutme {
+    display: grid;
+    grid-template-columns: 47% 47%;
+    column-gap: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    row-gap: 30px;
+    font-size: 0.8em;
 }
 
 /* Widths 0-767, 768-1152, 1153-above */
