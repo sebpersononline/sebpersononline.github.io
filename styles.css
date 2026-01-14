@@ -211,12 +211,10 @@ div > img {
 #skills6 {
     color: #9dcad4;
     font-size: 0.6em;
-    text-align: center;
 }
 
 .allLogos {
-    text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 /* PROJECTS SECTION PROJECTS SECTION PROJECTS SECTION PROJECTS SECTION */
@@ -245,6 +243,7 @@ div > img {
 
 .projects2 {
     color: rgb(200, 249, 255);
+    font-size: 0.8em;
 }
 
 .projects3 {
