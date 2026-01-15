@@ -261,6 +261,7 @@ div > img {
     column-gap: 2%;
     margin-left: 2%;
     margin-right: 2%;
+    margin-bottom: 15%;
     row-gap: 30px;
     font-size: 0.8em;
 }
