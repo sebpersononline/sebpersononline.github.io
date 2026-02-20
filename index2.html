@@ -12,23 +12,23 @@
     <meta property="og:type" content="profile">
     <meta property="og:image" content="images/me.jpg">
     <link rel="stylesheet" type="text/css" href="styles2.css">
-    <!-- <script src="script.js"></script> -->
+    <script src="script2.js"></script>
 </head>
 <body>
     <div class="header">
         <div class="headerflex">
-            <a href="#intro" class="tab tab1 selected">Intro</a>
-            <a href="#skills" class="tab tab2">Skills</a>
-            <a href="#projects" class="tab tab3">Projects </a>
-            <a href="#aboutme" class="tab tab4">About Me </a>
+            <a href="#introJump" class="tab tab1 selected">Intro</a>
+            <a href="#skillsJump" class="tab tab2">Skills</a>
+            <a href="#projectsJump" class="tab tab3">Projects </a>
+            <!-- <a href="#aboutme" class="tab tab4">About Me </a> -->
             <a href="SebastianSantosResume2026.pdf" target="_blank" class="tab">Resume</a>
         </div>
     </div>
-    <div class="main">
+    <div class="main" id="introJump">
         <div class="title1">
-            <h2>Good Evening!</h2>
+            <h2 id="timeOfDay">__________</h2>
         </div>
-        <div class="block intro" id="intro">
+        <div class="block intro">
             <div>
             <h1>I'm Sebastian Santos</h1>
             <h4 class="hl">(But you can call me Seb)</h4>
@@ -48,7 +48,7 @@
             <h2>My Skills</h2>
             <div>Through my studies and my proactive self-learning.</div>
         </div>
-        <div class="block skills" id="skills">
+        <div class="block skills" id="skillsJump">
             <div class="skillCard"><img src="images/html.png" alt="HTML">HTML</div>
             <div class="skillCard"><img src="images/css.png" alt="CSS">CSS</div>
             <div class="skillCard"><img src="images/js.png" alt="JavaScript">JavaScript</div>
@@ -74,7 +74,7 @@
             <h2>Projects</h2>
             <div>All source code is available upon request.</div>
         </div>
-        <div class="block projects" id="projects">
+        <div class="block projects" id="projectsJump">
             <div class="projectCard">
                 <div>
                     <h2>Global Game Jam 2026 Project</h2>
@@ -109,6 +109,7 @@
                         <img src="images/vs2022.png" alt="Visual Studio">
                         <img src="images/csharp.png" alt="C#">
                         <img src="images/sql.png" alt="MySQL">
+                        <img src="images/dotnet.png" alt=".NET">
                     </div>
                 </div>
                 <div>
@@ -126,6 +127,8 @@
                     </div>
                     <div class="projectSkills">
                         <img src="images/vsc.png" alt="VS Code">
+                        <img src="images/html.png" alt="HTML">
+                        <img src="images/css.png" alt="CSS">
                         <img src="images/php.png" alt="Visual Studio">
                         <img src="images/sql.png" alt="MySQL">
                     </div>
@@ -150,6 +153,7 @@
                     <div class="projectSkills">
                         <img src="images/vs2022.png" alt="Visual Studio">
                         <img src="images/csharp.png" alt="C#">
+                        <img src="images/dotnet.png" alt=".NET">
                     </div>
                 </div>
                 <div>
@@ -175,6 +179,24 @@
                     <img class="projectImage" src="images/responsivewebproject.jpg" alt="Responsive Web Country History">
                 </div>
             </div>
+            <div class="projectCard">
+                <div>
+                    <h2>This Portfolio</h2>
+                    Written in my own time, using lots of CSS and JavaScript programming.
+                    <div class="projectLinks">
+                        <a href="https://github.com/sebpersononline/sebpersononline.github.io">Github Repository</a>
+                    </div>
+                    <div class="projectSkills">
+                        <img src="images/vsc.png" alt="VS Code">
+                        <img src="images/html.png" alt="HTML">
+                        <img src="images/css.png" alt="CSS">
+                        <img src="images/js.png" alt="JavaScript">
+                    </div>
+                </div>
+                <div>
+                    <img class="projectImage" src="images/portfolio.png" alt="Responsive Web Country History">
+                </div>
+            </div>
         </div>
         <div class="title4">
             <h2>Contact me!</h2>
@@ -187,17 +209,20 @@
             </div>
             <div class="contactCard">
                 <img src="images/linkedin.png" alt="Linkedin">
-                <a href="https://www.linkedin.com/in/sebastian-leonardo-santos/">View Profile</a>
+                <a href="https://www.linkedin.com/in/sebastian-leonardo-santos/">View Linkedin</a>
             </div>
             <div class="contactCard">
                 <img src="images/git.png" alt="Github">
-                <a href="https://github.com/sebpersononline">View Profile</a>
+                <a href="https://github.com/sebpersononline">View Github</a>
             </div>
         </div>
-        <div class="title5" id="aboutme">
+        <div class="title5">
+            You've reached the bottom...
+        </div>
+        <!-- <div class="title5" id="aboutme">
             <h2>About me!</h2>
             <div>Learn what makes me tick.</div>
-        </div>
+        </div> -->
     </div>
 </body>
 </html>
