@@ -1,7 +1,34 @@
 body {
     color: white;
-    background: linear-gradient(90deg, rgb(17, 19, 16) 0%, rgb(41, 43, 41) 50%, rgb(17, 19, 16) 100%);
+    margin: 0px;
+    background: linear-gradient(90deg, rgb(1, 3, 19) 0%, rgb(32, 40, 71) 50%, rgb(1, 3, 19) 100%);
     font-family:'Courier New', Courier, monospace;
+}
+
+.header {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    background-color: rgb(49, 44, 100);
+    position: sticky;
+    top: 0px;
+
+    padding: 10px;
+    
+    z-index: 100;
+}
+
+.headerflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5em;
+}
+
+.headerflex > a {
+    background-color: inherit;
+}
+.headerflex > a:hover {
+    background-color: inherit;
 }
 
 .main {
@@ -31,8 +58,8 @@ body {
     gap: 50px;
     padding: 20px;
 
-    border: solid rgb(53, 88, 88);
-    background: linear-gradient(90deg, rgb(18, 29, 29) 30%, rgb(47, 77, 77) 100%);
+    border: solid rgb(88, 86, 53);
+    background: linear-gradient(90deg, rgb(29, 29, 18) 30%, rgb(77, 77, 47) 100%);
 }
 
 .skills {
@@ -57,15 +84,15 @@ body {
     
     font-weight: bold;
     font-size: 1.25em;
-    border: solid thin rgb(89, 148, 148);
-    background: linear-gradient(rgb(31, 56, 56) 60%, rgb(47, 77, 77) 100%);
+    border: solid thin rgb(132, 145, 145);
+    background: linear-gradient(rgb(47, 58, 58) 60%, rgb(80, 85, 85) 100%);
     opacity: 0.8;
     transition: opacity 0.2s, transform 0.2s, border-color 0.2s;
 }
 
 .skillCard:hover {
     transform: translateY(-5px);
-    border-color: rgb(106, 177, 177);
+    border-color: rgb(156, 173, 173);
     opacity: 1;
 }
 
@@ -104,11 +131,12 @@ a {
     background-color: rgb(32, 64, 66);
     color: white;
     text-decoration: none;
-    transition: transform 0.2s;
+    transition: transform 0.2s, background-color 0.2s;
 }
 
 a:hover {
     transform: scale(1.1,1.1);
+    background-color: rgb(59, 118, 122);
 }
 
 .projectLinks {
@@ -126,6 +154,7 @@ a:hover {
 
 .projectLinkBlocked:hover {
     transform: scale(1.05,1.05);
+    background-color: rgb(23, 24, 11);
 }
 
 .projectSkills {
@@ -156,8 +185,8 @@ a:hover {
     row-gap: 20px;
     justify-content: space-between;
 
-    border: solid thin rgb(89, 148, 148);
-    background: linear-gradient(rgb(12, 20, 20) 0%, rgb(31, 56, 56) 100%);
+    border: solid thin rgb(255, 253, 155);
+    background: linear-gradient(rgb(170, 170, 139) 25%, rgb(56, 56, 31) 100%);
     transition: transform 0.2s;
 }
 
@@ -166,7 +195,7 @@ a:hover {
 }
 
 .contactCard > a {
-    background-color: #98eff7;
+    background-color: #ffdd77;
     color: black;
     font-weight: bold;
 }
