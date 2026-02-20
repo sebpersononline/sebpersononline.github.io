@@ -185,8 +185,8 @@ a:hover {
     row-gap: 20px;
     justify-content: space-between;
 
-    border: solid thin rgb(255, 253, 155);
-    background: linear-gradient(rgb(170, 170, 139) 25%, rgb(56, 56, 31) 100%);
+    border: solid thin rgb(199, 199, 79);
+    background: linear-gradient(rgb(105, 105, 42) 25%, rgb(27, 27, 15) 100%);
     transition: transform 0.2s;
 }
 
