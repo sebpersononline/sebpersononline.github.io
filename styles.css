@@ -8,6 +8,12 @@ body {
     image-rendering: -webkit-optimize-contrast;
 }
 
+.intro, .skills, .aboutme, .projects {
+    border: dashed rgba(0, 0, 0, 0.363);
+    background-color: rgba(0, 0, 0, 0.226);
+    padding: 50px;
+}
+
 a {
     color: inherit;
     text-decoration: inherit;
@@ -36,7 +42,7 @@ a {
     
     background-color: rgb(23, 34, 39);
     /* padding: 5px; */
-    font-size: 2.25em;
+    font-size: 2em;
 
     position: sticky;
     top: 0px;
@@ -89,10 +95,8 @@ a {
 
 .intro {
     display: grid;
-    grid-template-columns: 45% 45%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 1%;
+    justify-content: space-evenly;
+    grid-template-columns: 1.5fr 1fr;
 }
 
 #intro1 {
@@ -151,8 +155,8 @@ div > img {
 }
 
 #me {
-    height: fit-content;
-    width: 15em;
+    width: 20em;
+    height: 20em;
 }
 
 
@@ -276,8 +280,8 @@ div > img {
         padding-right: 15px;
     }
     #me {
-        width: 14em;
-        height: 25em;
+        /* width: 14em;
+        height: 25em; */
     }
 }
 @media screen and (max-width: 1152px) {
