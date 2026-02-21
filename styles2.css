@@ -92,6 +92,14 @@ body {
     background: linear-gradient(rgb(47, 58, 58) 60%, rgb(80, 85, 85) 100%);
     opacity: 0.8;
     transition: opacity 0.2s, transform 0.2s, border-color 0.2s;
+    user-select: none;
+}
+
+.skillCard.selectedSkill {
+    border: solid thin rgb(207, 204, 184);
+    background: linear-gradient(rgb(58, 58, 47) 60%, rgb(85, 84, 80) 100%);
+    opacity: 1;
+    transition: opacity 0.2s, transform 0.2s, border-color 0.2s;
 }
 
 .skillCard:hover {
@@ -171,6 +179,10 @@ a:hover {
 
 .projectSkills > img {
     height: 4em;
+}
+
+.noProjectsFound {
+    text-align: center;
 }
 
 .contacts {

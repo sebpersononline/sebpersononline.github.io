@@ -1,0 +1,75 @@
+{
+    "skills": [
+        { "name": "HTML", "image": "images/html.png" },
+        { "name": "CSS", "image": "images/css.png" },
+        { "name": "JavaScript", "image": "images/js.png" },
+        { "name": "Node.js", "image": "images/node.png" },
+        { "name": "Express", "image": "images/express.png" },
+        { "name": "C#", "image": "images/csharp.png" },
+        { "name": "ASP.NET", "image": "images/dotnet.png" },
+        { "name": "Java", "image": "images/java.png" },
+        { "name": "MySQL", "image": "images/sql.png" },
+        { "name": "PHP", "image": "images/php.png" },
+        { "name": "Mongo", "image": "images/mongo.png" },
+        { "name": "React", "image": "images/react.png" },
+        { "name": "Spring", "image": "images/spring.png" },
+        { "name": "GDScript", "image": "images/gdscript.png" },
+        { "name": "AWS", "image": "images/aws.png" },
+        { "name": "Visual Studio", "image": "images/vs2022.png" },
+        { "name": "VS Code", "image": "images/vsc.png" },
+        { "name": "Arduino", "image": "images/arduino.png" },
+        { "name": "Godot", "image": "images/godot.png" },
+        { "name": "Github", "image": "images/git.png" }
+    ],
+    "projects": [
+        {
+            "name": "Global Game Jam 2026 Project",
+            "description": "Godot project created in a 48-hour time limit. Jump around on a grid collecting coins while avoiding enemy statues under the watchful eye of the Game Master.",
+            "image": ["images/backoffbuffoons.png", "Back Off, Buffoons!"],
+            "skills": ["Godot","GDScript"],
+            "requiresRequest": false,
+
+            "downloadLink": "https://globalgamejam.org/games/2026/back-buffoon-5",
+            "gitLink": "https://github.com/sebpersononline/back-off-buffoons"
+        },
+        {
+            "name": "Bowling Tournament Project",
+            "description": "ASP.NET application using MVC-Framework and an SQLite database. Allows registration of Teams and Players with separate layers of access for unlogged users and administrators. Created in partnership with Sheila Kazvini and Lincoln Tozer.",
+            "image": ["images/bowlingtournamentproject.png", "Bowling Tournament Project"],
+            "skills": ["Visual Studio","C#","MySQL","ASP.NET"],
+            "requiresRequest": true
+        },
+        {
+            "name": "Social Media Website",
+            "description": "PHP web application using an SQL database. Includes features to sign up, log in, create posts and follow other users. Your home page is populated with the most recent posts from people you follow.",
+            "image": ["images/y.png", "Y"],
+            "skills": ["VS Code","HTML","CSS","PHP","MySQL"],
+            "requiresRequest": true
+        },
+        {
+            "name": "VHS Rental Application",
+            "description": "Online store that integrates object-oriented programming principles. You can create, read, and edit items to a CSV text file, as well as log in to separate accounts and submit items to checkout. Created in partnership with Lincoln Tozer.",
+            "image": ["images/contemporaryvhsrental.png", "Contemporary VHS Rental"],
+            "skills": ["Visual Studio","C#","ASP.NET"],
+            "requiresRequest": true,
+
+            "demoLink": "https://youtu.be/5ZzzgSY6cqI?si=YcIk1ZwzRUsMpBhl"
+        },
+        {
+            "name": "Responsive Web Country History",
+            "description": "A website showcasing various parts of American history that integrates responsive web design principles. Has a navigation submenu, lots of styling, all the good stuff. Created in partnership with Lincoln Tozer.",
+            "image": ["images/responsivewebproject.jpg", "Responsive Web Country History"],
+            "skills": ["VS Code","HTML","CSS"],
+            "requiresRequest": true
+        },
+        {
+            "name": "This Portfolio",
+            "description": "Written in my own time, using lots of CSS and JavaScript programming.",
+            "image": ["images/portfolio.png", "My Portfolio"],
+            "skills": ["VS Code","HTML","CSS","JavaScript"],
+            "requiresRequest": false,
+
+            "gitLink": "https://github.com/sebpersononline/sebpersononline.github.io"
+        }
+    ]
+}
