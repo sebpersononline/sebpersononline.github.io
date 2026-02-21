@@ -237,6 +237,7 @@ a:hover {
     }
     .intro {
         grid-template-columns: 1fr;
+        row-gap: 0px;
     }
     .skillCard {
         width: 98px;
@@ -250,6 +251,39 @@ a:hover {
     }
 }
 @media screen and (max-width: 690px) {
+    body {
+        font-size: 0.8em;
+    }
+    .headerflex {
+        width: 320px;
+    }
+    .block {
+        width: 380px;
+    }
+    #me {
+        margin-left: 60px;
+        width: 20em;
+    }
+    .skills {
+        align-items: space-around;
+    }
+    .skillCard {
+        width: 74px;
+        height: 75px;
+    }
+    .contacts {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    }
+    .projectSkills {
+        justify-content: center;
+    }
+    .projectImage {
+        display: none;
+    }
+}
+@media screen and (max-width: 442px) {
     body {
         font-size: 0.8em;
     }
