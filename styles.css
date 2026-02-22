@@ -92,6 +92,7 @@ body {
     opacity: 0.8;
     transition: opacity 0.2s, transform 0.2s, border-color 0.2s;
     user-select: none;
+    cursor: pointer;
 }
 
 .skillImage {
