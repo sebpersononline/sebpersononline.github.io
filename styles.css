@@ -80,19 +80,23 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 155px;
-    height: 125px;
+    width: 121px;
+    height: 100px;
     text-align: center;
     padding: 5px;
     margin: 20px;
     
     font-weight: bold;
-    font-size: 1.25em;
+    font-size: 1.2em;
     border: solid thin rgb(132, 145, 145);
     background: linear-gradient(rgb(47, 58, 58) 60%, rgb(80, 85, 85) 100%);
     opacity: 0.8;
     transition: opacity 0.2s, transform 0.2s, border-color 0.2s;
     user-select: none;
+}
+
+.skillImage {
+    font-size: 0.8em;
 }
 
 .skillCard.selectedSkill {
