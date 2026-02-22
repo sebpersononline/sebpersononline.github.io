@@ -71,9 +71,9 @@
         },
         {
             "name": "Restaurant Menu",
-            "description": "CRUD app for a restaurant. Uses React for the front-end, Express for the back-end, and Mongo for the database to hold all of the menu items. Allows CRUD-operations. Created in partnership with Lincoln Tozer.",
+            "description": "A MERN stack app supporting CRUD operations for a restaurant. Uses React for the front-end, Express for the back-end, and Mongo for the database to hold all of the menu items. Allows CRUD-operations. Created in partnership with Lincoln Tozer.",
             "image": ["images/restaurantmenu.png","Restaurant Menu"],
-            "skills": ["HTML","CSS","JavaScript","Mongo","Express","React"],
+            "skills": ["HTML","CSS","JavaScript","Mongo","Express","React","Node.js"],
             "requiresRequest": true,
 
             "demoLink": "https://youtu.be/-HIUycnSsOY"
