@@ -70,6 +70,22 @@
             "requiresRequest": false,
 
             "gitLink": "https://github.com/sebpersononline/sebpersononline.github.io"
+        },
+        {
+            "name": "Restaurant Menu",
+            "description": "CRUD app for a restaurant. Uses React for the front-end, Express for the back-end, and Mongo for the database to hold all of the menu items. Allows CRUD-operations",
+            "image": ["images/restaurantmenu.png","Restaurant Menu"],
+            "skills": ["HTML","CSS","JavaScript","Mongo","Express","React"],
+            "requiresRequest": true,
+
+            "demoLink": "https://youtu.be/-HIUycnSsOY"
+        },
+        {
+            "name": "Pepperoni Pizza Shop",
+            "description": "Written in Java using Spring. Supports CRUD operations for creating pizzas with different ingredients, as well as logging in and out.",
+            "image": ["images/pepperonipizzashop.png","Pepperoni Pizza Shop"],
+            "skills": ["HTML","Java","Spring"],
+            "requiresRequest": true
         }
     ]
 }

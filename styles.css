@@ -136,6 +136,11 @@ body {
 .projectImage {
     width: 100%;
     border: solid black;
+    transition: transform 0.2s;
+}
+
+.projectImage:hover {
+    transform: scale(1.05,1.05);
 }
 
 a {
@@ -178,7 +183,12 @@ a:hover {
 }
 
 .projectSkills > img {
-    height: 4em;
+    height: 3.5em;
+    transition: transform 0.2s;
+}
+.projectSkills > img:hover {
+    height: 3.5em;
+    transform: scale(1.2,1.2);
 }
 
 .noProjectsFound {
