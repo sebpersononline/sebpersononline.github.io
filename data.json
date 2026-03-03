@@ -48,7 +48,7 @@
             "name": "VHS Rental Application",
             "description": "Online store that integrates object-oriented programming principles. You can create, read, and edit items to a CSV text file, as well as log in to separate accounts and submit items to checkout. Created in partnership with Lincoln Tozer.",
             "image": ["images/contemporaryvhsrental.png", "Contemporary VHS Rental"],
-            "skills": ["C#","ASP.NET"],
+            "skills": ["C#"],
             "requiresRequest": true,
 
             "demoLink": "https://youtu.be/5ZzzgSY6cqI?si=YcIk1ZwzRUsMpBhl"
