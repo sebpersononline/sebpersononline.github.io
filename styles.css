@@ -85,7 +85,7 @@ body {
     padding: 5px;
     margin: 15px;
     
-    font-weight: bold;
+    font-weight: normal;
     font-size: 1.2em;
     border: solid thin rgb(132, 145, 145);
     background: linear-gradient(rgb(47, 58, 58) 60%, rgb(80, 85, 85) 100%);

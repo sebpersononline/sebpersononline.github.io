@@ -17,7 +17,10 @@
         { "name": "GDScript", "image": "images/gdscript.png" },
         { "name": "Arduino", "image": "images/arduino.png" },
         { "name": "Godot", "image": "images/godot.png" },
-        { "name": "AWS", "image": "images/aws.png" }
+        { "name": "AWS", "image": "images/aws.png" },
+        { "name": "Power Automate", "image": "images/powerautomate.png" },
+        { "name": "AI Builder", "image": "images/aibuilder.png" },
+        { "name": "SSMS", "image": "images/ssms.png" }
     ],
     "projects": [
         {
